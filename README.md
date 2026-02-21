@@ -1,3 +1,9 @@
+[![CI/CD Pipeline](https://github.com/Stanik007/UniDone/actions/workflows/ci_cd.yml/badge.svg)](https://github.com/Stanik007/UniDone/actions/workflows/ci_cd.yml)
+
+# UniDone - Student Deadline Manager
+
+🌐 **Live Demo:** https://uni-done-zz3c.vercel.app
+
 # Vue 3 + Vite
 
 This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
