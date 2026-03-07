@@ -11,6 +11,8 @@
     "test:unit": "vitest run"
   },
   "dependencies": {
+    "@sentry/vue": "^10.42.0",
+    "posthog-js": "^1.354.0",
     "vue": "^3.5.25"
   },
   "devDependencies": {
