@@ -22,4 +22,10 @@ Sentry.init({
   environment: 'production',
 });
 
+Sentry.setUser({
+  id: '12345',
+  email: 'student@lpnu.ua',
+  segment: 'premium_user',
+});
+
 app.mount('#app');
