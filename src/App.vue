@@ -22,6 +22,8 @@
           <button @click="removeTask(task.id)">Видалити</button>
         </li>
       </ul>
+
+      <button @click="throwError">Break the world</button>
     </main>
   </div>
 </template>
@@ -70,5 +72,9 @@ function removeTask(id) {
     reason: 'manual',
     total_tasks: tasks.value.length,
   });
+}
+
+function throwError() {
+  throw new Error('Sentry Test Error: Something went wrong!');
 }
 </script>
